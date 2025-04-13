@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navigation-container">
+      <nav>
+        <h1>logo</h1>
+        <ul>
+          <li><a href="#hero">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#servies">services</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </div>
+    <ul id="mobile-menu" onclick="closeMenu()">
+      <li><a href="#hero">home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#servies">services</a></li>
+      <li><a href="#">portfolio</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="hero-container" id="hero">
+      <div>
+        <h1>innovative website solution for your business</h1>
+        <p>
+          offering professional website design and development services to help
+          your business grow online
+        </p>
+        <button>get in touch</button>
+      </div>
+    </div>
+
+    <div class="servies-container" id="servies">
+      <h1>services</h1>
+      <div class="servies-container-slider">
+        <div class="web-design">
+          <i class="fa-solid fa-desktop"></i>
+          <h2>website design</h2>
+          <p>creating modern and responsive websites</p>
+        </div>
+
+        <div class="uiux-design">
+          <i class="fa-solid fa-pen-ruler"></i>
+          <h2>ux/ui design</h2>
+          <p>designing intuitive and engaging user interfaces</p>
+        </div>
+
+        <div class="tech">
+          <i class="fa-solid fa-code"></i>
+          <h2>tech integration</h2>
+          <p>integrating java,msl.mangoDB,and more</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+      <h1>contact</h1>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
